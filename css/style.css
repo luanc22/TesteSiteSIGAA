@@ -30,6 +30,10 @@ footer{
     margin: auto;
 }
 
+.sigaatitulo h3 {
+    margin-top: 0;
+}
+
 .sigaalogin {
     display: flex;
     align-items: center;
