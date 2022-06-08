@@ -1,0 +1,53 @@
+body{ height:100vh; margin:0; background-color: lightcyan;}
+footer{ min-height:50px; background:darkblue; }
+
+body{ 
+  display: flex; 
+  flex-direction: column; 
+}
+
+footer{
+  margin-top: auto; 
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+.sigaatitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    padding: 1%;
+}
+
+.sigaalogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.sigaalogin input {
+    margin: 2px;
+}
+
+.sigaalogin button {
+    margin-top: 5px;
+}
+
+.sigaalogin form{
+    padding: 1%;
+}
+
+
+
+
